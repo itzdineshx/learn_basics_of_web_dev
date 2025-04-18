@@ -242,10 +242,9 @@ footer {
 
 .social-icons a {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 1.2rem;
-  margin-bottom: 1rem;
+  gap: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* Reveal on scroll */
