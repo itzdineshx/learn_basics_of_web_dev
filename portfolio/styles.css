@@ -237,13 +237,6 @@ footer {
   background: var(--header-bg);
   margin-top: 2rem;
 }
-.social-icons a {
-  margin: 0 0.5rem;
-  font-size: 1.4rem;
-  color: var(--fg);
-  transition: color 0.3s;
-}
-.social-icons a:hover { color: var(--accent); }
 
 /* Reveal on scroll */
 .reveal {
