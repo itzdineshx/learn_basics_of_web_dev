@@ -240,7 +240,7 @@ footer {
 
 }
 
-.social-icons a {
+.social-icons {
   display: flex;
   justify-content: center;
   gap: 3rem;
