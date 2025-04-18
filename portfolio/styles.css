@@ -239,9 +239,13 @@ footer {
 }
 
 }
-.social-icons a {
-  margin: 0 0.5rem;
-  color: var(--fg);
+
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 /* Reveal on scroll */
