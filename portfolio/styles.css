@@ -240,7 +240,7 @@ footer {
 
 }
 
-footer div {
+.social-icons a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
