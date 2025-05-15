@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <!-- Step 1: Move CSS to the head -->
+    <style>
+        /* Step 2: Universal selector to reset default padding and margin */
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box; /* Added for better padding/border handling */
+        }
+
+        /* Step 3: Style the nav container */
+        nav{
+            color: whitesmoke;
+            background-color: #333; /* Changed to a standard dark color */
+            padding: 10px 20px; /* Increased padding for better spacing */
+            display: flex; /* Use Flexbox for layout */
+            justify-content: space-between; /* Space out the h1 and ul */
+            align-items: center; /* Vertically align items in the center */
+        }
+
+        /* Step 4: Style the heading inside nav */
+        nav h1 {
+            margin: 0; /* Remove default h1 margin */
+        }
+
+        /* Step 5: Style the unordered list */
+        nav ul{
+            list-style: none; /* Remove default list bullets */
+            display: flex; /* Use Flexbox for list items */
+            margin: 0; /* Remove default ul margin */
+        }
+
+        /* Step 6: Style the list items */
+        nav ul li{
+            margin-left: 20px; /* Add space between list items */
+            /* Remove the display: inline from the previous code */
+        }
+
+        /* Optional: Style for links if you add them later */
+        nav ul li a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Nav Bar</h1>
+        <ul>
+            <li>Home</li>
+            <li>About US</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+</body>
+</html>
