@@ -8,4 +8,4 @@ project2: [Event Management](https://events-xa.neocities.org/Events/event)
 
 project3: [EMC course](https://emc-learn.tiiny.site/)
 
-project4: [Little Taco Shop](taco-sh.netlify.app)
+project4: [Little Taco Shop](https://taco-sh.netlify.app/)
