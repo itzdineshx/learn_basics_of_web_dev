@@ -7,9 +7,12 @@ html {
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    min-height: 100vh;
+    margin: 0 auto;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    max-width: 800px;
+    padding: 1rem;
 }
 
 header {
